@@ -1,0 +1,19 @@
+.circle {
+	border-radius: 50%;
+	behavior: url(PIE.htc);
+}
+
+.icon-circle {
+	width: 100px;
+	height: 100px;
+	background: grey;
+	display: inline;
+	float: left;
+}
+
+.icon-mini-circle {
+	width: 25px;
+	height: 25px;
+	background: black;
+	clear: both;
+}

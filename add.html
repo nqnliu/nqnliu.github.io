@@ -6,38 +6,51 @@
 	</head>
 	<body>
 		<header>
-			<h1>add a habit</h1> 
+			<h1 class="edit-habit-header">add a habit</h1> 
 		</header>
 		<main>
-			<form>
-				<label>Habit title</label><br/>
-				<input type="text" name="title" id="title">
-				<br/>
+			<div class="edit-habit-form">
+				<form width="500px">
+					<label>Habit title</label><br/>
+					<input type="text" name="title" id="title">
+					<br/>
 
-				<label>Icon</label><br/>
-				<div class="icon-circles" width="500px">
-					<svg viewBox="0 0 400 100" width="500px" height="150px">
-	    				<circle cx="50" cy="50" r="50" fill="teal"/>
-	    				<circle cx="85" cy="85" r="15" fill="gold"/>
-	    				<circle cx="175" cy="50" r="50" fill="teal"/>
-	    				<circle cx="300" cy="50" r="50" fill="teal"/>
-					</svg>
-				</div>
+					<label>Icon</label><br/>
+					<div class="icon-circles">
+						<svg viewBox="0 0 400 100" width="500px" height="150px">
+		    				<circle cx="50" cy="50" r="50" fill="teal"></circle>
+		    				<circle cx="85" cy="85" r="15" fill="gold"></circle>
+		    				<circle cx="175" cy="50" r="50" fill="teal"></circle>
+		    				<circle cx="300" cy="50" r="50" fill="teal"></circle>
+						</svg>
+					</div>
 
-				<br/>
-				<label>Frequency</label><br/>
-				<svg viewBox="0 0 1050 100" width="500px" height="50px">
-	  				<rect x="0" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="150" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="300" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="450" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="600" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="750" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />
-	  				<rect x="900" y="20" rx="5" ry="5" width="100" height="100" style="stroke-width:5;opacity:0.5" />	  					  					  					
-				</svg>
-				<br/>
-				<input class="add-habit-button" type="submit" value="save it">
-			</form>
+					<br/>
+					<label>Frequency</label><br/>
+					<div>
+						<svg viewBox="0 0 1050 100" width="500px" height="75px">
+			  				<rect x="0" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="150" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="300" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="450" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="600" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="750" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
+			  				<rect x="900" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />	  					  					  					
+						</svg>
+					</div>
+					<div style="height:50px;">
+						<svg viewBox="0 0 1500 100" width="500px" height="40px">
+		    				<circle cx="50" cy="50" r="40" fill="teal"/>
+		    				<circle cx="200" cy="50" r="40" fill="teal"/>
+		    				<circle cx="350" cy="50" r="40" fill="teal"/>	
+		    				<text x="450" y="60" font-size="50">Times per day</text>			
+		    			</svg>
+	    			</div>
+	    			<div class="submit-button-div">
+						<input class="add-habit-button" type="submit" value="save it">
+					</div>
+				</form>
+			</div>
 		</main>
 	</body>
 </html>

@@ -1,0 +1,37 @@
+.habit-heading h1 {
+    margin: 0;
+    float: left;
+    padding-top: 6px;
+}
+
+.habit-container {
+   /* background-color: blue; */
+}
+
+.habit-heading {
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.habit-buttons {
+    padding: 10px;
+}
+
+.icon {
+}
+
+.thumbs-up {
+    padding-left: 10%;
+}
+
+.thumbs-down {
+    padding-left: 10%;
+}
+
+.habit-name {
+    float: left;
+}
+
+.frequency {
+    float: right;
+}

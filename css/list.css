@@ -6,7 +6,6 @@ body {
 .habit-heading {
     padding-bottom: 10px;
     overflow: hidden;
-    font-family: 'Roboto', sans-serif
 }
 
 hr {
@@ -18,19 +17,21 @@ hr {
     padding: 0;
 }
 
-.habit-container#first {
-    background: #2980b9;
+.habit-container{
     padding-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.habit-container#first {
+    background-color: #ecf0f1;
 }
 
 .habit-container#second {
-    background: #f1c40f;
-    padding-bottom: 25px;
 }
 
 .habit-container#third {
-    background: #e74c3c;
-    padding-bottom: 25px;
+    background-color: #ecf0f1;
 }
 
 .habit-buttons {
@@ -186,7 +187,7 @@ hr {
     display: inline-block;
     vertical-align: middle;
     padding-left: 4%; 
-    height: 80px;
+    height: 70px;
 }
 
 

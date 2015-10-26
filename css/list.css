@@ -38,12 +38,9 @@ hr {
 }
 
 @media (min-width: 750px) {
-
-
 .icon {
     display: inline-block;
     vertical-align: middle;
-    height:150px;
 }
 
 .thumbs-up {
@@ -51,7 +48,6 @@ hr {
     vertical-align: middle;
     padding-left: 5%; 
     height: 100px;
-    white-space:nowrap
 }
 
 .thumbs-down {
@@ -59,9 +55,13 @@ hr {
     vertical-align: middle;
     padding-left: 5%; 
     height: 90px;
-    white-space:nowrap
 } 
+    
+.habit-name {
+    font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+    float: left;
 }
+} 
 
 .circle {
 	border-radius: 50%;
@@ -115,6 +115,7 @@ hr {
 
 
 .habit-name {
+    font-size: 2.6rem; line-height: 1.2;  letter-spacing: -.1rem;
     float: left;
 }
 
@@ -174,8 +175,19 @@ hr {
     width: 250px;
 }
 
+.edit {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%; 
+    height: 90px;
+}
 
-
+.delete {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 4%; 
+    height: 80px;
+}
 
 
 

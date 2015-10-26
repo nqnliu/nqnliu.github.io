@@ -3,6 +3,7 @@
     <head>
         <title>Your habits</title>
         <meta charset="utf-8">
+
         <link rel="stylesheet" type="text/css" href="css/list.css">
         <link rel="stylesheet" type="text/css" href="css/skeleton.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,13 +21,23 @@
             </div>
 
                 <img class="icon icon-circle circle" src="img/money.png">
-                <img class="edit" src="img/edit.png">
-                <img class="delete" src="img/delete.png">
-
+            
+            <div class="stats">
+                <div class="percentage-heading">
+                    <div class="percentage" style="float-left;">85%</div>
+                    <img class="thumbs-up" src="img/thumbs-up.png" style="float: right; padding-top: 8px;">
+                </div>
+                
+                <div id="progressbar"><div></div></div>
+                <div>
+                    <p style="float: left">10 in a row!</p>
+                    <p style="float: right">best = 20</p>
+                </div>
+            </div>
         </div>
 
         <div class="habit-container" id="second">
-            <div class="habit-heading" id="second">
+            <div class="habit-heading">
                 <div class="habit-name">Sleep 8 Hours</div>
                 <img class="frequency" src="http://placehold.it/50x50">
             </div>
@@ -37,7 +48,7 @@
         </div>
         <div class="habit-container" id="third">
             <div class="habit-heading">
-                <div class="habit-name"> Don't bite your nails!!!!!</div>
+                <div class="habit-name">Don't bite your nails!!!!!</div>
                 <img class="frequency" src="http://placehold.it/50x50">
                 <img class="frequency" src="http://placehold.it/50x50">
                 <img class="frequency" src="http://placehold.it/50x50">

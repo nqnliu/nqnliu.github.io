@@ -5,6 +5,8 @@
 	max-width: 800px;
 	vertical-align: middle; 
 	overflow: hidden; 
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 body {
@@ -69,7 +71,7 @@ body {
 	max-width: 800px;
 	vertical-align: middle; 
 	overflow: hidden; 	
-	margin-top: 5px;
+	margin-bottom: 25px;
 }
 
 .edit-habit-form label {
@@ -82,6 +84,8 @@ body {
 	max-width: 800px;
 	display: inline-block;
 	position: relative;
+	margin-bottom: 25px;
+	margin-top: 25px;
 }
 
 .day-box {
@@ -110,7 +114,7 @@ body {
 }
 
 form input[type=text] {
-	width: 100%;
+	width: 95%;
 	height: 50px;
 	line-height: 50px;
 	border-radius: 5px;
@@ -145,8 +149,7 @@ form input[type=text] {
 	color: rgb(85, 85, 85);
 	cursor: auto;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 14px;
-	height: 34px;
+	font-size: 20px;
 	letter-spacing: normal;
 	line-height: 20px;
 	margin-left: 10px;

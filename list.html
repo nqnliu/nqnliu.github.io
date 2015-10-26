@@ -6,6 +6,19 @@
         <link rel="stylesheet" type="text/css" href="css/list.css">
         <link rel="stylesheet" type="text/css" href="css/skeleton.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            h1 {
+                font-size: 2.5rem; line-height: 1.2;  letter-spacing: -.1rem;
+                float: left;
+            }
+            
+            @media (max-width: 400px) {
+                h1 {
+                    font-size: 1.7rem; line-height: 1.2; letter-spacing: -1.rem;
+                }
+            }
+        </style>
     </head>
     
     <body>
@@ -13,22 +26,27 @@
 			<h2 class="view-habit-header" >view your habits</h2> 
 		</header>
         
-        <div class="habit-container" id="first">
+        <div class="habit-container" id="first" onclick="location.href='list-modify.html';" style="cursor: pointer;">
             <div class="habit-heading">
-                <div class="habit-name">Spend less $$$$</div>
-                <img class="frequency" src="http://placehold.it/50x50">
+                <h1>Spend less $$$$</h1>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                </div>
             </div>
 
                 <img class="icon icon-circle circle" src="img/money.png">
                 
                 <a href="list-upvote.html"><img class="thumbs-up thumb" src="img/thumbs-up.png"></a>
-                <img class="thumbs-down" src="img/thumbs-down.png">
+            
+                <a href="list.html"><img class="thumbs-down" src="img/thumbs-down.png"></a>
         </div>
 
         <div class="habit-container" id="second">
             <div class="habit-heading" id="second">
-                <div class="habit-name">Sleep 8 Hours</div>
-                <img class="frequency" src="http://placehold.it/50x50">
+                <h1>Sleep 8 Hours</h1>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                </div>
             </div>
             
             <img class="icon icon-circle circle" src="img/sleep.png">
@@ -37,10 +55,12 @@
         </div>
         <div class="habit-container" id="third">
             <div class="habit-heading">
-                <div class="habit-name"> Don't bite your nails!!!!!</div>
-                <img class="frequency" src="http://placehold.it/50x50">
-                <img class="frequency" src="http://placehold.it/50x50">
-                <img class="frequency" src="http://placehold.it/50x50">
+                <h1> Don't bite your nails!!!!!</h1>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                    <div class="frequency-circle circle">2</div>
+                    <div class="frequency-circle circle">3</div>
+                </div>
             </div>
             
             <img class="icon icon-circle circle" src="img/cancel.png">

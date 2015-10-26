@@ -3,27 +3,32 @@
     <head>
         <title>Your habits</title>
         <meta charset="utf-8">
-        <!--<link rel="stylesheet" type="text/css" media="(min-width: 750px)" href="list.css"> -->
         <link rel="stylesheet" type="text/css" href="css/list.css">
-
-        <!--<link rel="stylesheet" type="text/css" href="list-min.css"> -->
         <link rel="stylesheet" type="text/css" href="css/skeleton.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            h1 {
+                font-size: 2.5rem; line-height: 1.2;  letter-spacing: -.1rem;
+                float: left;
+            }
+            
+            @media (max-width: 400px) {
+                h1 {
+                    font-size: 1.7rem; line-height: 1.2; letter-spacing: -1.rem;
+                }
+            }
+        </style>
     </head>
     
     <body>
         <div class="habit-container" id="first">
             <div class="habit-heading">
-                <h1>Spend less $$$$
-                    <div class="times-div">
-                        <svg viewBox="0 0 205 60" preserveAspectRatio="xMinYMin meet">
-                        <circle cx="177" cy="30" r="25" class="times-circle"/>
-                        <text x="170" y="35" font-size="25">1</text>                   
-                        </svg>
-                    </div>
-                </h1>
+                <div class="habit-name">Spend less $$$$</div>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                </div>
             </div>
-
                 <img class="icon icon-circle circle" src="img/money.png">
                 <img class="thumbs-up thumb" src="img/thumbs-up.png">
                 <img class="thumbs-down" src="img/thumbs-down.png">
@@ -31,14 +36,10 @@
 
         <div class="habit-container" id="second">
             <div class="habit-heading" id="second">
-                <h1>Sleep 8 Hours
-                    <div class="times-div">
-                        <svg viewBox="0 0 205 60" preserveAspectRatio="xMinYMin meet">
-                        <circle cx="177" cy="30" r="25" class="times-circle"/>
-                        <text x="170" y="35" font-size="25">1</text>                   
-                        </svg>
-                    </div>
-                </h1>
+                <h1>Sleep 8 Hours</h1>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                </div>
             </div>
             
             <img class="icon icon-circle circle" src="img/sleep.png">
@@ -47,18 +48,13 @@
         </div>
         <div class="habit-container" id="third">
             <div class="habit-heading">
-                <h1>Don't bite your nails!!!!!
-                <div class="times-div">
-                    <svg viewBox="0 0 205 60" preserveAspectRatio="xMinYMin meet">
-                        <circle cx="27" cy="30" r="25" class="times-circle"/>
-                        <text x="18" y="35" font-size="25">1</text>
-                        <circle cx="102" cy="30" r="25" class="selected times-circle"/>
-                        <text x="95" y="35" font-size="25">2</text>
-                        <circle cx="177" cy="30" r="25" class="times-circle"/>
-                        <text x="170" y="35" font-size="25">3</text>                         
-                    </svg>
+                <h1>Don't bite your nails!!!!! </h1>
+                <div class="frequency">
+                    <div class="frequency-circle circle">1</div>
+                    <div class="frequency-circle circle">2</div>
+                    <div class="frequency-circle circle">3</div>
                 </div>
-                </h1>
+
             </div>
             
             <img class="icon icon-circle circle" src="img/cancel.png">

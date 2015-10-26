@@ -71,7 +71,6 @@ hr {
 }
 
 .icon-circle {
-    background: white;
     width: 100px;
     height: 100px;
     text-align: center;
@@ -147,7 +146,7 @@ hr {
 .view-habit-header {
 	-webkit-margin-before: 0;
     -webkit-margin-after: 0;
-	background: teal;
+	background: #33C3F0;
 	height: 70px;
 	line-height: 70px;
 	text-align: center;

@@ -1,0 +1,1 @@
+The swiping gesture to get to the edit and delete buttons are replaced with a click. You can click anywhere within the habit box on /list.html EXCEPT the thumbs up (which lets you view your progress) and the thumbs down (which does nothing).   

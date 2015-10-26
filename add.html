@@ -7,45 +7,61 @@
 	</head>
 	<body>
 		<header>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<h1 class="edit-habit-header">add a habit</h1> 
 		</header>
 		<main>
 			<div class="edit-habit-form">
-				<form width="500px">
+				<form>
 					<label>Habit title</label><br/>
 					<input type="text" name="title" id="title">
 					<br/>
 
 					<label>Icon</label><br/>
 					<div class="icon-circles">
-						<svg viewBox="0 0 400 100" width="500px" height="150px">
-		    				<circle cx="50" cy="50" r="50" fill="teal"></circle>
-		    				<circle cx="85" cy="85" r="15" fill="gold"></circle>
-		    				<circle cx="175" cy="50" r="50" fill="teal"></circle>
-		    				<circle cx="300" cy="50" r="50" fill="teal"></circle>
+						<svg viewBox="0 0 400 105" preserveAspectRatio="xMinYMin meet">
+		    				<circle cx="55" cy="52" r="50" fill="teal" class="selected"></circle>
+		    				<circle cx="90" cy="87" r="15" fill="gold"></circle>
+		    				<text x="83" y="95" font-size="25">+</text>
+		    				<circle cx="180" cy="52" r="50" fill="teal"></circle>
+		    				<circle cx="305" cy="52" r="50" fill="teal"></circle>
 						</svg>
 					</div>
 
 					<br/>
 					<label>Frequency</label><br/>
-					<div>
-						<svg viewBox="0 0 1050 100" width="500px" height="75px">
-			  				<rect x="0" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="150" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="300" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="450" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="600" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="750" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />
-			  				<rect x="900" y="20" rx="5" ry="5" width="75" height="75" style="stroke-width:5;opacity:0.5" />	  					  					  					
+					<div class="freq-div">
+						<svg viewBox="0 0 510 75" preserveAspectRatio="xMinYMin meet">
+			  				<rect x="0" y="5" rx="5" ry="5" width="60" height="60" class="day-box"/>
+			  				<text x="15" y="45" font-size="25">Su</text>
+
+			  				<rect x="75" y="5" rx="5" ry="5" width="60" height="60" class="day-box"/>
+			  				<text x="95" y="45" font-size="25">M</text>
+
+			  				<rect x="150" y="5" rx="5" ry="5" width="60" height="60" class="day-box selected"/>
+			  				<text x="170" y="45" font-size="25">T</text>
+
+			  				<rect x="225" y="5" rx="5" ry="5" width="60" height="60" class="day-box"/>
+							<text x="245" y="45" font-size="25">W</text>
+
+			  				<rect x="300" y="5" rx="5" ry="5" width="60" height="60" class="day-box selected"/>
+			  				<text x="320" y="45" font-size="25">Th</text>
+
+			  				<rect x="375" y="5" rx="5" ry="5" width="60" height="60" class="day-box"/>
+			  				<text x="395" y="45" font-size="25">F</text>
+
+			  				<rect x="450" y="5" rx="5" ry="5" width="60" height="60" class="day-box"/>	
+			  				<text x="465" y="45" font-size="25">Sa</text>
 						</svg>
 					</div>
-					<div style="height:50px;">
-						<svg viewBox="0 0 1500 100" width="500px" height="40px">
-		    				<circle cx="50" cy="50" r="40" fill="teal"/>
-		    				<circle cx="200" cy="50" r="40" fill="teal"/>
-		    				<circle cx="350" cy="50" r="40" fill="teal"/>	
-		    				<text x="450" y="60" font-size="50">Times per day</text>			
+					<div class="times-div">
+						<svg viewBox="0 0 1500 100" preserveAspectRatio="xMinYMin meet">
+		    				<circle cx="70" cy="50" r="50" fill="teal"/>
+		    				<text x="53" y="68" font-size="70">1</text>
+		    				<circle cx="280" cy="50" r="50" fill="teal"/>
+		    				<text x="263" y="68" font-size="70">2</text>
+		    				<circle cx="490" cy="50" r="50" fill="teal"/>
+		    				<text x="473" y="68" font-size="70">3</text>	
+		    				<text x="600" y="60" font-size="50">Times per day</text>			
 		    			</svg>
 	    			</div>
 	    			<div class="submit-button-div">

@@ -1,59 +1,101 @@
-.circle {
-	border-radius: 50%;
-	behavior: url(PIE.htc);
+.icon-circles {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	vertical-align: middle; 
+	overflow: hidden; 
 }
 
-.icon-circle {
-	width: 100px;
-	height: 100px;
-	background: grey;
-	display: inline;
-	float: left;
-}
-
-.icon-mini-circle {
-	width: 25px;
-	height: 25px;
-	background: black;
-	clear: both;
+body {
+	margin: auto 0;
 }
 
 .edit-habit-header {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 	background: teal;
 	height: 70px;
 	line-height: 70px;
-	width: 500px;
 	text-align: center;
 	color: white;
+	font-family: Roboto, helvetica, arial, sans-serif;
 }
 
-.times-div {
-	height: 50px;
-	line-height: 50px;
-	vertical-align: middle;
-}
 
 .add-habit-button {
 	height: 80px;
 	background: teal;
-	width: 80%;
+	max-width: 500px;
+	width: 500px;
 	color: white;
 	font-size: 2em;
+	-webkit-appearance: button;
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;	
 }
 
 .submit-button-div {
-	text-align: center;
 	margin-top: 50px;
+	text-align: center;
 }
 
 .edit-habit-form {
-	width:500px;
+	font-family: Roboto, helvetica, arial, sans-serif;	
+	padding: 10px;
+	max-width: 800px;
+}
+
+.times-div {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+	vertical-align: middle; 
+	overflow: hidden; 	
+}
+
+.edit-habit-form label {
+	font-size: 25px;
+}
+
+.freq-div {
+	margin-top: 10px;
+	width: 100%;
+	max-width: 800px;
+	display: inline-block;
+	position: relative;
+}
+
+.day-box {
+	fill: silver;
+}
+
+.selected {
+	stroke: #8A4E62;
+	stroke-width: 2px;
 }
 
 form input[type=text] {
-	width: 90%;
-	height: 30px;
-	line-height: 30px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
 	border-radius: 5px;
 	-webkit-appearance: none;
 	-webkit-rtl-ordering: logical;
@@ -85,18 +127,12 @@ form input[type=text] {
 	box-sizing: border-box;
 	color: rgb(85, 85, 85);
 	cursor: auto;
-	display: block;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	font-stretch: normal;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
 	height: 34px;
 	letter-spacing: normal;
 	line-height: 20px;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 6px;

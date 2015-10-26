@@ -9,6 +9,7 @@
 
 body {
 	margin: auto 0;
+	font-family: Roboto, helvetica, arial, sans-serif;	
 }
 
 .edit-habit-header {
@@ -19,15 +20,14 @@ body {
 	line-height: 70px;
 	text-align: center;
 	color: white;
-	font-family: Roboto, helvetica, arial, sans-serif;
 }
 
 
 .add-habit-button {
 	height: 80px;
 	background: teal;
-	max-width: 500px;
-	width: 500px;
+	max-width: 800px;
+	width: 80%;
 	color: white;
 	font-size: 2em;
 	-webkit-appearance: button;
@@ -85,6 +85,10 @@ body {
 
 .day-box {
 	fill: silver;
+}
+
+.day-box-text {
+	fill: white;
 }
 
 .selected {

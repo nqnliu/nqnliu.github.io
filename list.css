@@ -2,15 +2,35 @@
     margin: 0;
     float: left;
     padding-top: 6px;
+    font-size: 4vw;
 }
 
-.habit-container {
-   /* background-color: blue; */
-}
 
 .habit-heading {
     padding-bottom: 10px;
     overflow: hidden;
+    font-family: 'Roboto', sans-serif
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.habit-container#first {
+    
+}
+
+.habit-container#second {
+    
+}
+
+.habit-container#third {
+    
 }
 
 .habit-buttons {
@@ -18,14 +38,23 @@
 }
 
 .icon {
+    display: inline-block;
+    vertical-align: middle;
+    height:150px;
 }
 
 .thumbs-up {
+    display: inline-block;
+    vertical-align: middle;
     padding-left: 10%;
+    height: 100px;
 }
 
 .thumbs-down {
+    display: inline-block;
+    vertical-align: middle;
     padding-left: 10%;
+    height: 90px;
 }
 
 .habit-name {
@@ -35,3 +64,22 @@
 .frequency {
     float: right;
 }
+
+.add {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

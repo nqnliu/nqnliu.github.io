@@ -69,6 +69,7 @@ body {
 	max-width: 800px;
 	vertical-align: middle; 
 	overflow: hidden; 	
+	margin-top: 5px;
 }
 
 .edit-habit-form label {
@@ -93,7 +94,19 @@ body {
 
 .selected {
 	stroke: #8A4E62;
-	stroke-width: 2px;
+	stroke-width: 3px;
+}
+
+.times-circle {
+	fill: gold;
+}
+
+.icon-circle {
+	fill: teal;
+}
+
+.icon-mini-circle {
+	fill: gold;
 }
 
 form input[type=text] {

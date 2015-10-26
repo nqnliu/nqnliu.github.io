@@ -101,11 +101,10 @@ hr {
 .thumbs-up {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 5%; 
+    margin-left: 5%; 
     /*height: 80px; */
     width: 22%;
     height: auto;
-    
 }
 
 @media (min-width: 400px) {
@@ -119,7 +118,7 @@ hr {
 .thumbs-down {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 5%; 
+    margin-left: 5%; 
     /*height: 70px; */
     width: 17%;
     height: auto;
@@ -175,6 +174,7 @@ hr {
 	line-height: 70px;
 	text-align: center;
 	color: white;
+    overflow: hidden;
 }
 
 .stats {
@@ -201,6 +201,7 @@ hr {
     float: left;
 }
 
+
 @media (min-width:400px) {
 .percentage {
     padding-top: 10px;
@@ -223,7 +224,7 @@ hr {
 .edit {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 5%; 
+    margin-left: 5%; 
     width: 25%;
     height: auto;
 }
@@ -239,7 +240,7 @@ hr {
 .delete {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 4%; 
+    margin-left: 4%; 
     width: 20%;
     height: auto;
 }

@@ -167,6 +167,7 @@ hr {
 
 
 .view-habit-header {
+    margin: 0;
 	background: #33C3F0;
 	height: 70px;
 	line-height: 70px;

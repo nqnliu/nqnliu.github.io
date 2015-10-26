@@ -5,13 +5,10 @@
 	max-width: 800px;
 	vertical-align: middle; 
 	overflow: hidden; 
-	margin-top: 25px;
-	margin-bottom: 25px;
 }
 
 body {
-	margin: auto 0;
-	font-family: Roboto, helvetica, arial, sans-serif;	
+	margin: auto 0;	
 }
 
 .edit-habit-header {
@@ -24,8 +21,7 @@ body {
 	color: white;
 }
 
-
-.add-habit-button {
+input[type="submit"].add-habit-button {
 	height: 80px;
 	background: teal;
 	max-width: 800px;
@@ -59,7 +55,6 @@ body {
 }
 
 .edit-habit-form {
-	font-family: Roboto, helvetica, arial, sans-serif;	
 	padding: 10px;
 	max-width: 800px;
 }
@@ -79,13 +74,11 @@ body {
 }
 
 .freq-div {
-	margin-top: 10px;
 	width: 100%;
 	max-width: 800px;
 	display: inline-block;
 	position: relative;
 	margin-bottom: 25px;
-	margin-top: 25px;
 }
 
 .day-box {
@@ -153,12 +146,10 @@ form input[type=text] {
 	letter-spacing: normal;
 	line-height: 20px;
 	margin-left: 10px;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	padding-bottom: 6px;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-top: 6px;
 	text-align: start;
 	transition-delay: 0s, 0s;
 	transition-duration: 0.15s, 0.15s;

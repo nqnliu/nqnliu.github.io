@@ -151,39 +151,21 @@ hr {
     height: 100px;
 }
 
-/*#progressbar {
-    vertical-align: middle;
-    border: black solid 2px;
-    background-color: white;
-    width: 150px;
-} */
-
 #progressbar {
     vertical-align: middle;
     border: black solid 2px;
     background-color: white;
-    width: 225px;
+    width: 100%;
 }
 
-
-/*#progressbar > div {
-    background-color: green;
-    width: 100px;
-    height: 20px;
-} */
 
 #progressbar > div {
     background-color: green;
-    width: 175px; 
+    width: 85%; 
     height: 20px;
 }
 
-/*@media (min-width: 400px) {
-#progressbar > div {
-    width: 200px; 
-    height: 20px;
-}
-} */
+
 
 .view-habit-header {
 	-webkit-margin-before: 0;
@@ -199,6 +181,13 @@ hr {
     display: inline-block;
     vertical-align: middle;
     margin-left: 5%;
+    width: 60%;
+}
+
+@media (min-width: 400px){
+    .stats {
+        width: 225px;
+    }
 }
 
 .info-container {
@@ -220,14 +209,15 @@ hr {
 }
 }
 
-percentage-heading.thumbs-up {
+.percentage-heading > thumbs-up {
     float: right;
+    
 }
 
 .percentage-heading {
     display: inline-block;
     vertical-align: middle;
-    width: 225px;
+    width: 100%;
 }
 
 .edit {

@@ -190,8 +190,18 @@ hr {
     height: 70px;
 }
 
+.times-div {
+    float: right;
+    width: 200px; 
+    margin-top: 10px;
+    margin-right: 10px;
+}
 
-
+.times-circle {
+    fill: gold;
+    stroke: black;
+    stroke-width: 2;
+}
 
 
 

@@ -1,8 +1,21 @@
-.habit-heading h1 {
+/*@media (min-width: 700px) {
+    .habit-heading h1 {
+        margin: 0;
+        float: left;
+        padding-top: 6px;
+        font-size: 175px;
+    }
+} */
+
+/*.habit-heading h1 {
     margin: 0;
     float: left;
     padding-top: 6px;
     font-size: 4vw;
+} */
+
+body {
+    margin: 0 auto;
 }
 
 
@@ -22,20 +35,26 @@ hr {
 }
 
 .habit-container#first {
-    
+    background: #2980b9;
+    padding-bottom: 25px;
 }
 
 .habit-container#second {
-    
+    background: #f1c40f;
+    padding-bottom: 25px;
 }
 
 .habit-container#third {
-    
+    background: #e74c3c;
+    padding-bottom: 25px;
 }
 
 .habit-buttons {
     padding: 10px;
 }
+
+@media (min-width: 750px) {
+
 
 .icon {
     display: inline-block;
@@ -46,16 +65,70 @@ hr {
 .thumbs-up {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 10%;
+    padding-left: 5%; 
     height: 100px;
+    white-space:nowrap
 }
 
 .thumbs-down {
     display: inline-block;
     vertical-align: middle;
-    padding-left: 10%;
+    padding-left: 5%; 
     height: 90px;
+    white-space:nowrap
+} 
 }
+
+.circle {
+	border-radius: 50%;
+	behavior: url(PIE.htc);
+}
+
+.icon-circle {
+    background: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    border:10px solid black;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    padding: 10px;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    height:70px;
+    width:70px;
+}
+
+.thumb-circle {
+    background: #27ae60;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 10px;
+}
+
+.thumbs-up {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%; 
+    height: 80px;
+}
+
+.thumbs-down {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%; 
+    height: 70px;
+} 
+
+
 
 .habit-name {
     float: left;
@@ -69,6 +142,27 @@ hr {
     display: block;
     margin: 0 auto;
     height: 100px;
+}
+
+#progressbar {
+    border: black solid 2px;
+    background-color: white;
+}
+    
+#progressbar > div {
+    background-color: green;
+    width: 40%; /* Adjust with JavaScript */
+    height: 20px;
+}
+
+.view-habit-header {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+	background: teal;
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: white;
 }
 
 

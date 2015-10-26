@@ -1,0 +1,96 @@
+/*@media (min-width: 700px) {
+    .habit-heading h1 {
+        margin: 0;
+        float: left;
+        padding-top: 6px;
+        font-size: 175px;
+    }
+} */
+
+/*.habit-heading h1 {
+    margin: 0;
+    float: left;
+    padding-top: 6px;
+    font-size: 4vw;
+} */
+
+
+.habit-heading {
+    padding-bottom: 10px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.habit-container#first {
+    
+}
+
+.habit-container#second {
+    
+}
+
+.habit-container#third {
+    
+}
+
+.habit-buttons {
+    padding: 10px;
+}
+
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    height:130px;
+}
+
+.thumbs-up {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%; 
+    height: 90px;
+}
+
+.thumbs-down {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5%; 
+    height: 80px;
+} 
+
+
+.habit-name {
+    float: left;
+}
+
+.frequency {
+    float: right;
+}
+
+.add {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

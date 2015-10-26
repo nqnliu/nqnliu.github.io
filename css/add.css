@@ -92,6 +92,7 @@ input[type="submit"].add-habit-button {
 .selected {
 	stroke: #C53B5D;
 	stroke-width: 3px;
+	fill: #CF4769;
 }
 
 .times-circle {

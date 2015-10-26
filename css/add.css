@@ -14,7 +14,7 @@ body {
 .edit-habit-header {
 	-webkit-margin-before: 0;
     -webkit-margin-after: 0;
-	background: teal;
+	background: #33C3F0;
 	height: 70px;
 	line-height: 70px;
 	text-align: center;
@@ -23,7 +23,7 @@ body {
 
 input[type="submit"].add-habit-button {
 	height: 80px;
-	background: teal;
+	background: #33C3F0;
 	max-width: 800px;
 	width: 80%;
 	color: white;
@@ -90,7 +90,7 @@ input[type="submit"].add-habit-button {
 }
 
 .selected {
-	stroke: #8A4E62;
+	stroke: #C53B5D;
 	stroke-width: 3px;
 }
 
@@ -99,7 +99,7 @@ input[type="submit"].add-habit-button {
 }
 
 .icon-circle {
-	fill: teal;
+	fill: #33C3F0;
 }
 
 .icon-mini-circle {
